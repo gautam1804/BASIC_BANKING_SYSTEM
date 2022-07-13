@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Joan&family=Philosopher&family=Playfair+Display&family=Rajdhani:wght@300;400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+table {
+	letter-spacing: 1.2px;
+}
+
+td {
+	text-align: center;
+}
+
+button {
+	border: none;
+	background: linear-gradient(to left, grey silver);
+	transition: 1s;
+}
+
+@media only screen and (orientation: portrait) {
+	* {
+		letter-spacing: 1px;
+	}
+}

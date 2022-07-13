@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Joan&family=Philosopher&family=Playfair+Display&family=Rajdhani:wght@300;400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Rajdhani';
+}
+
+.nav-link {
+	font-size: large;
+	margin-right: 15px;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+}
+
+.navbar-brand {
+	letter-spacing: 0.5px;
+}
+
+.logo {
+	width: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: x-large;
+	font-family: 'Philosopher';
+}
+
+.navbar,
+.collapse,
+.navbar-nav,
+a {
+	color: black;
+}
+
+h2 {
+	color: currentColor;
+	letter-spacing: 0.5px;
+}
+
+.intro {
+	background: linear-gradient(45deg, ivory, azure);
+}
+
+h1 {
+	color: black;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+h3 {
+	color: #2F363F;
+}
+
+button {
+
+	border: 2px solid black;
+	border-radius: 6px;
+	cursor: pointer;
+	flex-wrap: nowrap;
+	padding: 10px;
+	background: linear-gradient(to right, azure,white);
+	color: black;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+
+button:hover,
+h1:hover {
+	transform: scale(1.1);
+}
+
+button:hover {
+	background: linear-gradient(to left, white, silver);
+}
+
+footer {
+	background: linear-gradient(to left, white, silver);
+	letter-spacing: 0.5px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 15px;
+}
+
+@media only screen and (orientation:portrait) {
+	.intro {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	.act {
+		padding-bottom: 100px;
+	}
+}
